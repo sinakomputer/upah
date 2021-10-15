@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+	Product
+
+</title>
+
+</head>
+
+<style>
+
+	table{
+
+		font-family: Arial, Helvetica, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+	td,th{
+
+		border:1px green;
+		text-align: center;
+		padding: 8px;
+	}
+
+div {
+  float: left;
+  padding: 15px; 
+  width: 275px;
+  height: 275px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 220px;
+}
+
+
+img{
+  border-radius: 50%;
+}
+
+.div1 { 
+  border: 1px;
+}
+
+.div2 {
+}
+
+.div3 {
+}
+
+.div4{
+}
+
+.div5{
+}
+
+.div6{
+}
+
+.divloc{
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px 20px;
+  margin: 80px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  display: block;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+  
+</style>
+
+<body>
+
+
+	<table>
+	
+	   <tr style="background-color: #ccff66">
+		<th>HOME</th>
+		<th>FEEDBACK</th>
+		<th>SITEMAP</th>
+		<th>ABOUT</th>
+		<th>HELP</th>
+		<th>SIGN IN</th>
+		<th>SIGN UP</th>
+
+	    </tr>
+  </table>
+
+<br>
+<br> 
+<div class="div1">
+  <img src="photo1.jpg" width="100%" height="100%">
+</div>
+<div class="div2">Raymond Ray</div>
+<div class="divloc">Toronto,Canada</div>
+<div class="div3">Copywriting</div>
+<div class="div4">Rate : MYR15.00/hour</div>
+<div class="div6">
+	<button onclick="CartFunction()">Add to Cart</button>
+</div>
+<br>
+<br>
+<div class="div1">
+  <img src="photo2.jpeg" width="100%" height="100%">
+</div>
+<div class="div2">Jimmy Paige</div>
+<div class="divloc">Toronto,Canada</div>
+<div class="div3">Plumbing</div>
+<div class="div4">Rate : MYR67.00/hour</div>
+<div class="div6">
+	<button onclick="CartFunction()">Add to Cart</button>
+</div>
+<br>
+<div class="div1">
+  <img src="photo3.jpg" width="100%" height="100%">
+</div>
+<div class="div2">Rudolph Stein</div>
+<div class="divloc">Toronto,Canada</div>
+<div class="div3">Rooftop Repair</div>
+<div class="div4">Rate : MYR77.00/hour</div>
+<div class="div6">
+	<button onclick="CartFunction()">Add to Cart</button>
+</div>
+<br>
+<div class="div1">
+  <img src="photo4.jpg" width="100%" height="100%">
+</div>
+<div class="div2">Benjamina Button</div>
+<div class="divloc">Toronto,Canada</div>
+<div class="div3">Website Developer</div>
+<div class="div4">Rate : MYR100.00/hour</div>
+<div class="div6">
+	<button onclick="CartFunction()">Add to Cart</button>
+</div>
+
+<script>
+	function CartFunction(){
+		location.replace("Cart.html")
+	}
+</script>
+
+</body>
+</html>

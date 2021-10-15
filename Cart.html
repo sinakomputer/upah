@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Cart.css">
+  <title>Cart</title>
+</head>
+<body>
+  <table>
+	
+    <tr style="background-color: #ccff66">
+      <th>HOME</th>
+      <th>FEEDBACK</th>
+      <th>SITEMAP</th>
+      <th>ABOUT</th>
+      <th>HELP</th>
+      <th>SIGN IN</th>
+      <th><a href="SignUp.html">SIGN UP</></th>
+    </tr>
+  </table>
+  <h1 style="text-align: center;">Shopping Cart</h1>
+  <p>Item(s) in your cart</p>
+  <br><br><br><br><br>
+  
+  <table style="width: 80%;">
+    <tr>
+      <th>Provider</th>
+      <th>Rate</th>
+      <th>Duration(Hour)</th>
+      <th>SubTotal</th>
+    </tr>
+    <tr>
+      <td><img src="photo1.jpg" alt=""></td>
+      <td>RM15/Hour</td>
+      <td>10</td>
+      <td>RM150.00</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>TOTAL</td>
+      <td>RM150.00</td>
+    </tr>
+    <br>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+        <br>
+        <br>
+        <br>
+        <button onclick="CartFunction()">CHECKOUT</button></td>
+    </tr>
+  </table>
+  <br>
+  <br><br>
+  
+  <script>
+    function CartFunction(){
+      location.replace("Payment.html")
+    }
+  </script>
+</body>
+</html>
