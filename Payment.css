@@ -1,5 +1,5 @@
 div{
-  height: 800px; 
+  height: 500px; 
   width: 30%;
   margin: auto;
   border-radius: 20px;
@@ -8,6 +8,7 @@ div{
   border-color:lavender;
   background-color: skyblue;
   text-align: center;
+
 }
 
 .p1{
@@ -76,11 +77,13 @@ label{
 .finalpayment{
   height: 70px;
   background-color: rgb(15, 36,129);
-  width: auto;
+  width: 80%;
   text-align: left;
   padding-left: 5%;  
   padding-right: 4%;
 }
+
+
 
 .total{
   height: 50%;
@@ -88,4 +91,19 @@ label{
   width: 50%; 
   margin-left: 10px;
   text-align: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  border-radius: 20px;
+  height: 70px;
 }
