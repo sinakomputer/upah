@@ -1,5 +1,5 @@
 div{
-  height: 500px; 
+  height: 600px; 
   width: 30%;
   margin: auto;
   border-radius: 20px;
@@ -106,4 +106,14 @@ button {
   width: 90%;
   border-radius: 20px;
   height: 70px;
+}
+
+table,td {
+  border:1px solid black;
+  width: 5%;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
 }
