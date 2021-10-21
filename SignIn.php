@@ -1,3 +1,5 @@
+<?php include('server.php') ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +13,7 @@
 
 <style>
 
-.myDiv {
+/* .myDiv {
 
   		border: 1px outset red;
   		background-color: lightblue;    
@@ -20,22 +22,22 @@
   		width: 100%;
   		left: 0;
 
-	 }
+	 } */
 
 
-	table{
+	/* table{
 
 		font-family: Arial, Helvetica, sans-serif;
 		border-collapse: collapse;
 		width: 100%;
-	}
+	} */
 
-	td,th{
+	/* td,th{
 
 		border:1px green;
 		text-align: center;
 		padding: 8px;
-	}
+	} */
 
 /* Bordered form */
 form {
@@ -74,6 +76,7 @@ button:hover {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
+  
 }
 
 /* Center the avatar image inside this container */
@@ -115,41 +118,29 @@ span.psw {
 
 <body>
 
-
-	<table>
-	
-	   <tr style="background-color: #ccff66">
-		<th>HOME</th>
-		<th>FEEDBACK</th>
-		<th>SITEMAP</th>
-		<th>ABOUT</th>
-		<th>HELP</th>
-		<th>SIGN IN</th>
-		<th>SIGN UP</th>
-
-	    </tr>
-  </table>
-
-	<form action="signin.php" method="post">
+	<form action="SignIn.php" method="post">
+    <?php include('errors.php'); ?>
   <div class="imgcontainer">
     <img src="profilepic.png" alt="Avatar" class="avatar">
   </div>
 
   <div align="center" class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required style="text-align: center;">
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="password" required style="text-align: center;">
 
-    <button type="submit">Login</button>
+    <button type="submit" name="login_user">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
   </div>
 
   <div align="center" class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
+    <button type="button" class="cancelbtn">
+      <a href="index.php" style="text-decoration: none;">Cancel</a>
+    </button>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
   </form>

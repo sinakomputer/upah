@@ -117,24 +117,23 @@ hr {
      width: 100%;
   }
 }	
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  color: white; 
+  background: #333; 
+  border-radius: 5px; 
+  text-align: center;
+}
 </style>
 
 <body>
 
-  <!-- Navigation -->
-  <div class="topnav">
-		<div class="topnavlogo">
-      <img src="upah_transparent.png" width="150">
-    </div>
-    <a href="SignUp.html">Sign Up</a>
-    <a href="SignIn.html">Login</a>
-    <a href="Product.html">Services</a>
-    <a href="index.html">Home</a>
-	</div>
-<br>
 <h1 style="text-align: center;">Create your Upah account </h1>
 
-<form  method='post' class="modal-content" action="register.php">
+<form  method='post' class="modal-content" action="SignUp.php">
   <?php include('errors.php'); ?>
     <div class="container">
       <div align="center">
