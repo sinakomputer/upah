@@ -76,7 +76,7 @@ button:hover {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
-  
+  display: block;  
 }
 
 /* Center the avatar image inside this container */
@@ -111,8 +111,14 @@ span.psw {
   }
   .cancelbtn {
     width: 100%;
+    display: block;
   }
 }	
+
+a{
+  text-decoration: none;
+  color: white;  
+}
 
 </style>
 
@@ -139,13 +145,16 @@ span.psw {
 
   <div align="center" class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">
-      <a href="index.php" style="text-decoration: none;">Cancel</a>
+      <a href="index.php">Cancel</a>
     </button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw">Forgot <a href="#" style="color: violet;">password?</a></span>
   </div>
   </form>
 
-
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+</script>
 
 </body>
 </html>

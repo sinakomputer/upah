@@ -31,7 +31,7 @@
       }
       
     ?>
-    <a href="Product.html">SERVICES</a>
+    <a href="Product.php">SERVICES</a>
     <a href="index.php">HOME</a>
 	</div>
 <br>

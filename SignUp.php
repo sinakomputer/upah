@@ -127,6 +127,11 @@ hr {
   border-radius: 5px; 
   text-align: center;
 }
+
+a{
+  text-decoration: none;
+  color: white;  
+}
 </style>
 
 <body>
@@ -146,7 +151,9 @@ hr {
       <p align="center" style="color: whitesmoke;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
       <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">
+          <a href="index.php" style="display: block;">Cancel</a>
+        </button>
         <button type="submit" class="signupbtn" name="reg_user">Sign Up</button>
       </div>
     </div>
