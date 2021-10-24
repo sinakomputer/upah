@@ -23,9 +23,7 @@
 			<h1>Copywriting</h1>
 			<p>$15/hour</p>
 			<?php
-				if (isset($_SESSION["email"])) {
-					echo "<button onclick='CartFunction()'>Add to Cart</button>";
-				}
+				addtocart();
 			?>
 			
     </div>
@@ -39,9 +37,7 @@
 			<h1>Rooftop Repair</h1>
 			<p>$67/hour</p>
 			<?php
-				if (isset($_SESSION["email"])) {
-					echo "<button onclick='CartFunction()'>Add to Cart</button>";
-				}
+				addtocart();
 			?>
     </div>
   </div>
@@ -54,9 +50,7 @@
 			<h1>Plumbing Works</h1>
 			<p>$77/hour</p>
 			<?php
-				if (isset($_SESSION["email"])) {
-					echo "<button onclick='CartFunction()'>Add to Cart</button>";
-				}
+				addtocart();
 			?>
     </div>
   </div>
@@ -69,9 +63,7 @@
 			<h1>English Tutor</h1>
 			<p>$100/hour</p>
 			<?php
-				if (isset($_SESSION["email"])) {
-					echo "<button onclick='CartFunction()'>Add to Cart</button>";
-				}
+				addtocart();
 			?>
     </div>
   </div>

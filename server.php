@@ -83,5 +83,9 @@ if (isset($_POST['reg_user'])) {
 
   }
 
-
+  function addtocart(){
+    if (isset($_SESSION["email"])) {
+      echo "<button onclick='CartFunction()'>Add to Cart</button>";
+    }
+  }
 ?>
