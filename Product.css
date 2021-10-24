@@ -45,3 +45,29 @@ img{
   height: 200px;
   border-radius: 50%;
 }
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px 30px;
+  margin: 80px;
+  margin-left: 110px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  display: block;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cart{
+  float: left;
+  padding: 15px; 
+  width: 275px;
+  height: 275px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 220px;
+}

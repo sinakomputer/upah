@@ -18,35 +18,71 @@
   <div class="column">
     <div class="card">
       <img src="photo1.jpg" alt="">
-      <p>Some text</p>
-      <p>Some text</p>
+      <p>Raymond Ray</p>
+      <p>Toronto, Canada</p>
+			<h1>Copywriting</h1>
+			<p>$15/hour</p>
+			<?php
+				if (isset($_SESSION["email"])) {
+					echo "<button onclick='CartFunction()'>Add to Cart</button>";
+				}
+			?>
+			
     </div>
   </div>
 
   <div class="column">
     <div class="card">
       <img src="photo2.jpg" alt="">
-      <p>Some text</p>
-      <p>Some text</p>
+      <p>Jane Grey</p>
+      <p>Maldives</p>
+			<h1>Rooftop Repair</h1>
+			<p>$67/hour</p>
+			<?php
+				if (isset($_SESSION["email"])) {
+					echo "<button onclick='CartFunction()'>Add to Cart</button>";
+				}
+			?>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
       <img src="photo3.jpg" alt="">
-      <p>Some text</p>
-      <p>Some text</p>
+      <p>Rudolp Stein</p>
+      <p>Batu Kawan, Penang</p>
+			<h1>Plumbing Works</h1>
+			<p>$77/hour</p>
+			<?php
+				if (isset($_SESSION["email"])) {
+					echo "<button onclick='CartFunction()'>Add to Cart</button>";
+				}
+			?>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
       <img src="photo4.jpg" alt="">
-      <p>Some text</p>
-      <p>Some text</p>
+      <p>Benjamina Button</p>
+      <p>Kuala Lumpur</p>
+			<h1>English Tutor</h1>
+			<p>$100/hour</p>
+			<?php
+				if (isset($_SESSION["email"])) {
+					echo "<button onclick='CartFunction()'>Add to Cart</button>";
+				}
+			?>
     </div>
   </div>
+
+	
 </div>
+<script>
+	function CartFunction(){
+		location.replace("Cart.html")
+	}
+</script>
 
 
 </body>
