@@ -17,7 +17,7 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="" alt="">
+      <img src="photo1.jpg" alt="">
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -25,7 +25,7 @@
 
   <div class="column">
     <div class="card">
-      <img src="" alt="">
+      <img src="photo2.jpg" alt="">
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -33,7 +33,7 @@
   
   <div class="column">
     <div class="card">
-      <img src="" alt="">
+      <img src="photo3.jpg" alt="">
       <p>Some text</p>
       <p>Some text</p>
     </div>
@@ -41,12 +41,13 @@
   
   <div class="column">
     <div class="card">
-      <img src="" alt="">
+      <img src="photo4.jpg" alt="">
       <p>Some text</p>
       <p>Some text</p>
     </div>
   </div>
 </div>
+
 
 </body>
 </html>
