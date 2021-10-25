@@ -83,9 +83,25 @@ if (isset($_POST['reg_user'])) {
 
   }
 
+ //product.php 
   function addtocart(){
     if (isset($_SESSION["email"])) {
       echo "<button onclick='CartFunction()'>Add to Cart</button>";
     }
   }
+//product.php
+  $servicesquery1="SELECT * FROM services where ServiceID='1'";
+  $result1=mysqli_query($db,$servicesquery1);
+
+  $servicesquery2="SELECT * FROM services where ServiceID='2'";
+  $result2=mysqli_query($db,$servicesquery2);
+
+  // $servicesquery3="SELECT * FROM services where ServiceID='1'";
+  // $result3=mysqli_query($db,$servicesquery3);
+
+  // $servicesquery4="SELECT * FROM services where ServiceID='1'";
+  // $result4=mysqli_query($db,$servicesquery4);
+  
+
+
 ?>

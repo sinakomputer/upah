@@ -17,11 +17,18 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="photo1.jpg" alt="">
-      <p>Raymond Ray</p>
-      <p>Toronto, Canada</p>
-			<h1>Copywriting</h1>
-			<p>$15/hour</p>
+			<?php
+				while($rows=mysqli_fetch_assoc($result1))
+				{
+			?>
+				<img src="photo1.jpg">
+				<p><?php echo $rows['Name']; ?></p>
+				<?php echo $rows['location']; ?></p>
+				<h1><?php echo $rows['field']; ?></p></h1>
+				$<?php echo $rows['rate']; ?>/hour</p>
+			<?php
+				}
+			?>
 			<?php
 				addtocart();
 			?>
@@ -31,11 +38,19 @@
 
   <div class="column">
     <div class="card">
-      <img src="photo2.jpg" alt="">
-      <p>Jane Grey</p>
-      <p>Maldives</p>
-			<h1>Rooftop Repair</h1>
-			<p>$67/hour</p>
+		<?php
+				while($rows=mysqli_fetch_assoc($result2))
+				{
+			?>
+				<img src="photo2.jpg">
+				<p><?php echo $rows['Name']; ?></p>
+				<?php echo $rows['location']; ?></p>
+				<h1><?php echo $rows['field']; ?></p></h1>
+				$<?php echo $rows['rate']; ?>/hour</p>
+			<?php
+				}
+			?>
+      
 			<?php
 				addtocart();
 			?>
@@ -44,11 +59,18 @@
   
   <div class="column">
     <div class="card">
-      <img src="photo3.jpg" alt="">
-      <p>Rudolp Stein</p>
-      <p>Batu Kawan, Penang</p>
-			<h1>Plumbing Works</h1>
-			<p>$77/hour</p>
+		<?php
+				while($rows=mysqli_fetch_assoc($result3))
+				{
+			?>
+				<img src="photo3.jpg">
+				<p><?php echo $rows['Name']; ?></p>
+				<?php echo $rows['location']; ?></p>
+				<h1><?php echo $rows['field']; ?></p></h1>
+				$<?php echo $rows['rate']; ?>/hour</p>
+			<?php
+				}
+			?>
 			<?php
 				addtocart();
 			?>
@@ -57,11 +79,18 @@
   
   <div class="column">
     <div class="card">
-      <img src="photo4.jpg" alt="">
-      <p>Benjamina Button</p>
-      <p>Kuala Lumpur</p>
-			<h1>English Tutor</h1>
-			<p>$100/hour</p>
+		<?php
+				while($rows=mysqli_fetch_assoc($result4))
+				{
+			?>
+				<img src="photo4.jpg">
+				<p><?php echo $rows['Name']; ?></p>
+				<?php echo $rows['location']; ?></p>
+				<h1><?php echo $rows['field']; ?></p></h1>
+				$<?php echo $rows['rate']; ?>/hour</p>
+			<?php
+				}
+			?>
 			<?php
 				addtocart();
 			?>
