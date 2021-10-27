@@ -1,3 +1,8 @@
+<?php 
+	include_once "header.php"
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,19 +80,7 @@
 </style>
 
 <body>
-	<table>
 	
-	   <tr style="background-color: #ccff66">
-		<th>HOME</th>
-		<th>FEEDBACK</th>
-		<th>SITEMAP</th>
-		<th>ABOUT</th>
-		<th>HELP</th>
-		<th>SIGN IN</th>
-		<th>SIGN UP</th>
-
-	    </tr>
-  	</table>
 
   	<br>
   	<br>
@@ -97,9 +90,9 @@
   	<div class="slideshow-container">
 
   		<div class="center">
-	  		<img src="profilepic.png" width="25%" height="25%">
+	  		<img src="photo1.jpg" width="25%" height="25%">
 	  		<p>
-	  			Jamie Corr
+	  			Raymond Ray
 	    	</p>
 			<span class="fa fa-star checked"></span>
 			<span class="fa fa-star checked"></span>
@@ -109,24 +102,27 @@
 			<br>
 			<br>
 	  		<p>
-	  			“Excellent, Jamie meets my expectation, will hire her again in the future”
+	  			“Excellent, Raymond meets my expectation, will hire her again in the future”
 	  			<br>
 	  			<br>
-				Trichey Kent
+				<b>Sameer Khan</b>
 				<br>
 				<br>
 				<br>
-				“Been working with her for the three past projects, she delivered them in time”
+				“Been working with her for the three past projects, he delivered them in time”
 				<br>
 				<br>
-				Lloyd Bate
+				<b>Jackie Chun</b>
 	  		</p>
   		</div>
 
+			<br>
+			<br><br><br><br>
+
   		<div class="center">
-	  		<img src="profilepic.png" width="25%" height="25%">
+	  		<img src="photo3.jpg" width="25%" height="25%">
 	  		<p>
-	  			Jamie Corr
+	  			Rudolp Stein
 	    	</p>
 			<span class="fa fa-star checked"></span>
 			<span class="fa fa-star checked"></span>
@@ -136,22 +132,26 @@
 			<br>
 			<br>
 	  		<p>
-	  			“Excellent, Jamie meets my expectation, will hire her again in the future”
+	  			“Project delivered on time”
 	  			<br>
 	  			<br>
-				Trichey Kent
+				<b>Armel Kawski</b>
 				<br>
 				<br>
 				<br>
-				“Been working with her for the three past projects, she delivered them in time”
+				“Very supportive and listen to customer needs”
 				<br>
 				<br>
-				Lloyd Bate
+				<b>Lloyd Bate</b>
 	  		</p>
   		</div>
 
   		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   		<a class="next" onclick="plusSlides(1)">&#10095;</a>
   	</div>	
+		<br><br><br><br><br><br>
+		<?php 
+		include_once "footer.php"
+		?>
 </body>
 </html>

@@ -17,6 +17,15 @@
       width:33.33%;
       height:280px;
 		}
+
+		body{
+			scrollbar-width: none;	
+			overflow-y:scroll;		
+		}
+
+		body::-webkit-scrollbar{
+			display: none;
+		}
 </style>
 
 
@@ -46,6 +55,9 @@
 		<h1>Get your rates</h1>
 		<p>Find the rates that suits your budget from professional contractors on our platform.</p>
 	</div>
+	<?php 
+		include_once("footer.php")
+	?>
 </div>
 </body>
 </html>	

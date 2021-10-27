@@ -67,10 +67,10 @@ button:hover {
   left: 0;
   top: 0;
   width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  height: 50%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: #ccff66;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 /* Modal Content/Box */
@@ -132,6 +132,17 @@ a{
   text-decoration: none;
   color: white;  
 }
+
+body{
+  scrollbar-width: none;	
+  overflow-y:scroll;		
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
 </style>
 
 <body>
@@ -158,7 +169,12 @@ a{
       </div>
     </div>
   </form>
-
+  <div style="background-color: blue;height:100%;font-size:100%;width:100%;
+  text-align : center;color:blue;">
+    <?php 
+      include_once "footer.php";
+    ?>
+  </div>
 
 <script>
 // Get the modal
@@ -171,6 +187,7 @@ window.onclick = function(event) {
   }
 }
 </script>
+
 
 </body>
 </html>	

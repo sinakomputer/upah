@@ -1,4 +1,4 @@
- div{
+ .paydiv{
   height: 600px; 
   width: 30%;
   margin: auto;
@@ -50,9 +50,9 @@ label{
 }
 
 .cv{
-  text-align: left;
+  text-align: right;
   margin-right: 0%;
-  width: 50%;
+  width: 70%;
   height: 100%;
   border: none;
 }
@@ -81,15 +81,16 @@ label{
   text-align: left;
   padding-left: 5%;  
   padding-right: 4%;
+  margin-left: 5%;
 }
 
 
 
 .total{
-  height: 50%;
+  height: 40%;
   float: right;
-  width: 50%; 
-  margin-left: 10px;
+  width: 40%; 
+  margin-left: 1px;
   text-align: center;
 }
 

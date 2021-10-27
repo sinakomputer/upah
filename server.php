@@ -7,6 +7,7 @@ $firstname = "";
 $lastname = "";
 $errors = array();
 
+
 //connect to database
 $db = mysqli_connect('localhost','root','','upah');
 
@@ -84,9 +85,23 @@ if (isset($_POST['reg_user'])) {
   }
 
  //product.php 
-  function addtocart(){
+  function addtocart($page){
     if (isset($_SESSION["email"])) {
-      echo "<button onclick='CartFunction()'>Add to Cart</button>";
+      switch ($page){
+
+        case 1:
+          echo "<button onclick='CartFunction1()'>Add to Cart</button>";
+          break;
+        case 2:
+          echo "<button onclick='CartFunction2()'>Add to Cart</button>";
+          break;
+        case 3:
+          echo "<button onclick='CartFunction3()'>Add to Cart</button>";
+          break;
+        case 4:
+          echo "<button onclick='CartFunction4()'>Add to Cart</button>";
+          break;
+      }     
     }
   }
 //product.php
@@ -96,12 +111,17 @@ if (isset($_POST['reg_user'])) {
   $servicesquery2="SELECT * FROM services where ServiceID='2'";
   $result2=mysqli_query($db,$servicesquery2);
 
-  // $servicesquery3="SELECT * FROM services where ServiceID='1'";
-  // $result3=mysqli_query($db,$servicesquery3);
+  $servicesquery3="SELECT * FROM services where ServiceID='3'";
+  $result3=mysqli_query($db,$servicesquery3);
 
-  // $servicesquery4="SELECT * FROM services where ServiceID='1'";
-  // $result4=mysqli_query($db,$servicesquery4);
+  $servicesquery4="SELECT * FROM services where ServiceID='4'";
+  $result4=mysqli_query($db,$servicesquery4);
+  
+  //cart.php 
+  //calculator
   
 
-
+ 
+  
 ?>
+

@@ -31,3 +31,10 @@ button {
 button:hover {
   opacity: 0.8;
 }
+
+.maindiv{
+  border-color: black;
+  border-style: double;
+  width: 80%;
+  text-align: center;
+}

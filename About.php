@@ -1,3 +1,7 @@
+<?php 
+	include_once 'header.php'
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,13 +17,12 @@
 
 .myDiv {
 
-  		border: 1px outset red;
+  		border: none;
   		background-color: lightblue;    
   		text-align: center;
   		margin-bottom: 20px;
   		width: 100%;
-  		left: 0;
-
+			position: relative;
 	 }
 
 
@@ -39,35 +42,9 @@
 
 p {text-align: center;}
 
-
-
-
-
-
-
-
-
-
-
-
 </style>
 
 <body>
-
-
-	<table>
-	
-	   <tr style="background-color: #ccff66">
-		<th>HOME</th>
-		<th>FEEDBACK</th>
-		<th>SITEMAP</th>
-		<th>ABOUT</th>
-		<th>HELP</th>
-		<th>SIGN IN</th>
-		<th>SIGN UP</th>
-
-	    </tr>
-  </table>
 
 <p>
 
@@ -87,6 +64,17 @@ p {text-align: center;}
                       
                         <a href="mailto:support@upah.com">support@upah.com</a>
 </p>
+<br>
+<div class="myDiv">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0337811874015!2d101.58471201519745!3d3.085659054399095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4c4538104f91%3A0x3f1130ca8bddd195!2sUOA%20Business%20Park!5e0!3m2!1sen!2smy!4v1635314772232!5m2!1sen!2smy" width="600" height="450" style="border:0;float: left;margin-left: 35% " allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<div style="margin-right: 0%; margin-top: 30%;text-align: center;">
+	<?php 
+	include_once 'footer.php'
+	?>
+</div>
+
 
 
 </body>

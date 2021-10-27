@@ -30,7 +30,7 @@
 				}
 			?>
 			<?php
-				addtocart();
+				addtocart(1);
 			?>
 			
     </div>
@@ -52,14 +52,15 @@
 			?>
       
 			<?php
-				addtocart();
+				addtocart(2);
 			?>
     </div>
   </div>
   
+  <div class="row">
   <div class="column">
     <div class="card">
-		<?php
+			<?php
 				while($rows=mysqli_fetch_assoc($result3))
 				{
 			?>
@@ -72,8 +73,9 @@
 				}
 			?>
 			<?php
-				addtocart();
+				addtocart(3);
 			?>
+			
     </div>
   </div>
   
@@ -92,17 +94,35 @@
 				}
 			?>
 			<?php
-				addtocart();
+				addtocart(4);
 			?>
     </div>
   </div>
 
 	
 </div>
+<br><br><br><br><br><br>
+<div style=float:right;text-align:center;width:100%>
+<?php 
+include_once "footer.php"
+?>
+</div>
+
 <script>
-	function CartFunction(){
-		location.replace("Cart.html")
+	function CartFunction1(){
+			location.replace("Cart1.php")			
 	}
+	function CartFunction2(){
+			location.replace("Cart2.php")			
+	}
+	function CartFunction3(){
+			location.replace("Cart3.php")
+	}
+	function CartFunction4(){
+			location.replace("Cart4.php")			
+	}
+
+	
 </script>
 
 

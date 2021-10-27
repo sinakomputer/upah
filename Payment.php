@@ -1,17 +1,12 @@
+<?php
+  include_once "server.php"
+?>
 
+<link rel="stylesheet" href="Payment.css">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Payment.css">
-  <title>Payment</title>
-</head>
 <body>
   <br>
-  <div>
+  <div class="paydiv">
     <br>
     <b style="color:rgb(15, 36, 129);font-size: 150%;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" >
       PAYMENT
@@ -44,7 +39,7 @@
       <br>
       <b style="color: cornsilk;font-size: 150%;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Final Payment</b>
       <div class="total">
-         <b style="color: rgb(15, 36, 129);font-size: 150%;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">RM1400</b>
+         <b style="color: cornsilk;font-size: 150%;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">RM1400</b>
       </div>  
     </div>
     <br>

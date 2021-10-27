@@ -143,11 +143,17 @@ a{
     </label>
   </div>
 
-  <div align="center" class="container" style="background-color:#f1f1f1">
+  <div align="center" class="container" style="background-color:black">
     <button type="button" class="cancelbtn">
       <a href="index.php">Cancel</a>
     </button>
     <span class="psw">Forgot <a href="#" style="color: violet;">password?</a></span>
+  <br>
+  <br>
+  <br>
+  <?php 
+    include_once 'footer.php'
+  ?>
   </div>
   </form>
 
@@ -155,6 +161,7 @@ a{
 // Get the modal
 var modal = document.getElementById('id01');
 </script>
+
 
 </body>
 </html>

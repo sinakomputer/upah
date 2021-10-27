@@ -1,3 +1,7 @@
+<?php
+include_once "header.php"
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,19 +49,7 @@ p {text-align: center;}
 <body>
 
 
-	<table>
 	
-	   <tr style="background-color: #ccff66">
-		<th>HOME</th>
-		<th>FEEDBACK</th>
-		<th>SITEMAP</th>
-		<th>ABOUT</th>
-		<th>HELP</th>
-		<th>SIGN IN</th>
-		<th>SIGN UP</th>
-
-	    </tr>
-  </table>
 
 <p>
   <br>
@@ -141,7 +133,11 @@ p {text-align: center;}
       </p>  
     </div>
   </div>
+  <br><br><br><br>
 
+  <?php
+    include_once "footer.php"
+  ?>
 
 </body>
 </html>
