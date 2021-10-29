@@ -134,10 +134,11 @@ p {text-align: center;}
     </div>
   </div>
   <br><br><br><br>
-
+  <div style="padding-left : 800px;"> 
   <?php
     include_once "footer.php"
   ?>
+  </div>
 
 </body>
 </html>

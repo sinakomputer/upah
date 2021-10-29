@@ -150,8 +150,10 @@
   		<a class="next" onclick="plusSlides(1)">&#10095;</a>
   	</div>	
 		<br><br><br><br><br><br>
+		<div style="padding-left: 800px;">
 		<?php 
 		include_once "footer.php"
 		?>
+		</div>
 </body>
 </html>
